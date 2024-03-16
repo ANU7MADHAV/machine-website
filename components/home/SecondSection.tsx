@@ -1,9 +1,9 @@
 const SecondSection = () => {
   return (
     <div className="py-8">
-      <h1 className="text-center text-3xl font-bold">
+      <h2 className="text-center text-2xl font-bold">
         Welcome to Ace Finepack Private Limited
-      </h1>
+      </h2>
       <div className="mx-2 my-2 h-1 bg-slate-200"></div>
       <p className="px-4 py-3 text-justify tracking-wide">
         <strong className="tracking-normal">
