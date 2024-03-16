@@ -1,7 +1,7 @@
 const FirstSection = () => {
   return (
-    <div className="flex h-screen items-center bg-opacity-50 bg-[url('/home.jpg')] bg-cover bg-fixed bg-center bg-no-repeat text-center">
-      <div className="h-full w-full rounded-lg bg-black bg-opacity-50 p-8">
+    <div className="h-screen  bg-opacity-50 bg-[url('/home.jpg')] bg-cover bg-fixed bg-center bg-no-repeat text-center">
+      <div className="flex h-full w-full flex-col justify-center rounded-lg bg-black bg-opacity-50 p-8">
         <h1 className="mb-4 text-3xl font-bold text-white">
           Complete Packaging and Coding Solution Provider.
         </h1>
