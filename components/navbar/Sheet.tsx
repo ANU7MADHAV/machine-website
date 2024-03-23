@@ -11,6 +11,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
+import Link from "next/link";
 
 export function SheetSide() {
   return (
@@ -25,17 +26,9 @@ export function SheetSide() {
           <SheetHeader>
             <SheetTitle>Edit profile</SheetTitle>
             <SheetDescription>
-              Make changes to your profile here.
+              <Link href="/about-us">ABOUT US</Link>
             </SheetDescription>
           </SheetHeader>
-          <div className="grid gap-4 py-4">
-            <div className="grid grid-cols-4 items-center gap-4"></div>
-          </div>
-          <SheetFooter>
-            <SheetClose asChild>
-              <Button type="submit">Save changes</Button>
-            </SheetClose>
-          </SheetFooter>
         </SheetContent>
       </Sheet>
     </div>

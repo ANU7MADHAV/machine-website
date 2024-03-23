@@ -9,7 +9,7 @@ const FourthSection = () => {
     <div className="bg-gray-100 py-8">
       <h2 className="text-center text-2xl font-bold">TOP RATED PRODUCTS</h2>
       <div className="mx-2 my-2 h-1 bg-slate-300"></div>
-      <section className="flex flex-col gap-y-6 px-2 py-3">
+      <section className="flex flex-col gap-y-6 px-2 py-3 lg:flex-row lg:gap-x-2">
         <Image
           src={band}
           alt="band-sealer"

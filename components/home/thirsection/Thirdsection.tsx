@@ -6,11 +6,10 @@ import Card from "./Card";
 
 const Thirdsection = () => {
   return (
-    <div>
+    <div className="lg:flex lg:justify-center">
       <Card heading="PACKAGING MACHINE" image={pakaging} />
       <Card heading="PACKAGING TOOLS" image={tape} />
       <Card heading="PACKAGING MATERIAL" image={material} />
-      <Card heading="CONVEY STACKERS" image={conveyor} />
     </div>
   );
 };

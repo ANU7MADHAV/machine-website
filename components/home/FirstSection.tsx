@@ -6,8 +6,8 @@ const FirstSection = () => {
           Complete Packaging and Coding Solution Provider.
         </h1>
         <h3 className="mb-6 text-xl font-bold text-white">
-          Carton Sealing Machine | Packing Machine| Bar Coding Machine|
-          Strapping Machine
+          Carton Sealing Machine | Packing Machine| Coding Machine| Strapping
+          Machine
         </h3>
         <div className="space-x-4">
           <button className="rounded-md bg-blue-500 px-4 py-2 font-bold text-white shadow-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">

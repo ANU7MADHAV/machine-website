@@ -1,8 +1,8 @@
 const Footer = () => {
   return (
-    <div className="bg-gray-800  px-2 text-gray-300">
+    <div className="bg-gray-800 px-2 text-gray-300 lg:flex lg:justify-evenly">
       <div className="py-3">
-        <h2 className="my-1 text-xl text-white">About Sepack</h2>
+        <h2 className="my-1 text-xl text-white">About Phoenix </h2>
         <p className="text-left">
           Commitment to Innovation, transparency, customer satisfaction,
           continual improvement, commitment to society and environment are our
