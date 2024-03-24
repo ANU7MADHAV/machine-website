@@ -6,7 +6,7 @@ import Card from "./Card";
 
 const Thirdsection = () => {
   return (
-    <div className="lg:flex lg:justify-center">
+    <div className="md:grid md:grid-cols-2 md:gap-x-4 lg:flex  lg:justify-center">
       <Card heading="PACKAGING MACHINE" image={pakaging} />
       <Card heading="PACKAGING TOOLS" image={tape} />
       <Card heading="PACKAGING MATERIAL" image={material} />

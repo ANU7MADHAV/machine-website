@@ -1,3 +1,6 @@
+import Link from "next/link";
+import Button from "../Button";
+
 const FirstSection = () => {
   return (
     <div className="h-screen  bg-opacity-50 bg-[url('/home.jpg')] bg-cover bg-fixed bg-center bg-no-repeat text-center">
@@ -10,12 +13,10 @@ const FirstSection = () => {
           Machine
         </h3>
         <div className="space-x-4">
-          <button className="rounded-md bg-blue-500 px-4 py-2 font-bold text-white shadow-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
-            About us
-          </button>
-          <button className="rounded-md bg-blue-500 px-4 py-2 font-bold text-white shadow-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
-            Contact us
-          </button>
+          <Link href="/about-us">
+            <Button>About us</Button>
+          </Link>
+          <Button>Contact us</Button>
         </div>
       </div>
     </div>

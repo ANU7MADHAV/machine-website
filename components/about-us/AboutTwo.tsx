@@ -1,17 +1,22 @@
+import Button from "../Button";
+
 const AboutTwo = () => {
   return (
-    <div>
-      <span>MAPACK INDIA PRIVATE LIMITED</span>
-      <h2>Who We Are</h2>
-      <p>
-        Mapack India, the next-gen packaging machine brand is here with a
-        mission to provide state of art products, best of channel partner
-        support and after-sales service in India and abroad. Another key feature
-        is that Mapack is a reunion of packaging machine experts having more
-        than two decades of experience in the industry and totally dedicated to
-        provide a ‘beyond expectation’ experience for all the stakeholders.
+    <div className="my-5 px-4">
+      <h3 className="lg:text-xl">Phoenix Packaging Solutions</h3>
+      <h2 className="py-2 text-3xl font-semibold lg:text-5xl">Who We Are</h2>
+      <p className="text-justify font-light lg:text-lg">
+        Phoenix Packaging Solutions emerges as the epitome of innovation in the
+        realm of packaging machinery. With a steadfast commitment to excellence,
+        we are dedicated to delivering cutting-edge products, unparalleled
+        channel partner support, and exceptional after-sales service both in
+        India and abroad. What sets us apart is our team—a collective of
+        packaging machine experts boasting over two decades of industry
+        experience. United under the banner of Phoenix Packaging Solutions, we
+        are wholly devoted to exceeding expectations and providing a
+        transformative experience for all stakeholders.
       </p>
-      <button>CONTACT US</button>
+      <Button>About us</Button>
     </div>
   );
 };
