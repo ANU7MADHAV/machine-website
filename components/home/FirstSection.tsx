@@ -16,7 +16,9 @@ const FirstSection = () => {
           <Link href="/about-us">
             <Button>About us</Button>
           </Link>
-          <Button>Contact us</Button>
+          <Link href="/contact-us">
+            <Button>Contact us</Button>
+          </Link>
         </div>
       </div>
     </div>

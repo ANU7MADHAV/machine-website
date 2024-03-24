@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Button from "../Button";
 
 const AboutTwo = () => {
@@ -16,7 +17,9 @@ const AboutTwo = () => {
         are wholly devoted to exceeding expectations and providing a
         transformative experience for all stakeholders.
       </p>
-      <Button>About us</Button>
+      <Link href="/contact-us">
+        <Button>Contact us</Button>
+      </Link>
     </div>
   );
 };
