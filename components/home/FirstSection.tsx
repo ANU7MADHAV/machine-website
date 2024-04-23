@@ -1,25 +1,31 @@
-import Link from "next/link";
-import Button from "../Button";
+import { MdArrowOutward } from "react-icons/md";
+import Navbar from "./Navbar";
 
 const FirstSection = () => {
   return (
-    <div className="h-screen  bg-opacity-50 bg-[url('/home.jpg')] bg-cover bg-fixed bg-center bg-no-repeat text-center">
-      <div className="flex h-full w-full flex-col justify-center rounded-lg bg-black bg-opacity-50 p-8">
-        <h1 className="mb-4 text-3xl font-bold text-white">
-          Complete Packaging and Coding Solution Provider.
-        </h1>
-        <h3 className="mb-6 text-xl font-bold text-white">
-          Carton Sealing Machine | Packing Machine| Coding Machine| Strapping
-          Machine
-        </h3>
-        <div className="space-x-4">
-          <Link href="/about-us">
-            <Button>About us</Button>
-          </Link>
-          <Link href="/contact-us">
-            <Button>Contact us</Button>
-          </Link>
-        </div>
+    <div className="bg-blend-black h-screen bg-[url('/home.jpeg')] bg-cover bg-fixed bg-center bg-no-repeat">
+      <div className="h-full w-full backdrop-brightness-50 backdrop-opacity-100">
+        <nav>
+          <Navbar />
+        </nav>
+        <main className="flex h-full flex-col items-center justify-center text-center text-white">
+          <div className="flex items-center justify-center">
+            <h1 className="text-4xl">
+              Safeguard Your Products and Boost <br />
+              Efficiency with{" "}
+              <span className="text-[#FFE55F]">
+                Phoenix Packaging Solutions
+              </span>
+            </h1>
+          </div>
+
+          <button className="my-3 flex items-center rounded-md bg-[#FFE55F] px-2 py-1 text-sm text-black">
+            More about us{" "}
+            <span>
+              <MdArrowOutward />
+            </span>
+          </button>
+        </main>
       </div>
     </div>
   );

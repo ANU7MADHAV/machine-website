@@ -1,36 +1,46 @@
-import Image from "next/image";
-import band from "@/public/band-sealer.jpg";
-import box from "@/public/box-strapping.jpg";
-import dry from "@/public/dry-ink1.jpg";
-import hand from "@/public/hand-sealers.jpg";
+import React from "react";
 
 const FourthSection = () => {
   return (
-    <div className="bg-gray-100 py-8">
-      <h2 className="text-center text-2xl font-bold">TOP RATED PRODUCTS</h2>
-      <div className="mx-2 my-2 h-1 bg-slate-300"></div>
-      <section className="flex flex-col gap-y-6 px-2 py-3 lg:flex-row lg:gap-x-2">
-        <Image
-          src={band}
-          alt="band-sealer"
-          className="overflow-hidden rounded-md"
-        />
-        <Image
-          src={box}
-          alt="box-strapping"
-          className="overflow-hidden rounded-md"
-        />
-        <Image
-          src={dry}
-          alt="band-sealer"
-          className="overflow-hidden rounded-md"
-        />
-        <Image
-          src={hand}
-          alt="band-sealer"
-          className="overflow-hidden rounded-md"
-        />
-      </section>
+    <div className="flex h-screen flex-col ">
+      <div className="my-[130px] flex w-full justify-center gap-y-10">
+        <h2 className="text-xl font-bold">
+          Why Choose Phoenix Packaging Solutions?
+        </h2>
+      </div>
+      <div className="flex justify-center">
+        <div className="grid w-3/4 grid-cols-2 gap-4">
+          <section>
+            <h4 className="my-3 font-semibold">Extensive Selection</h4>
+            <p>
+              We offer a wide variety of packaging machines to cater to diverse
+              product types and packaging needs.
+            </p>
+          </section>
+          <section>
+            <h4 className="my-3 font-semibold">Enhanced Efficiency</h4>
+            <p>
+              Our equipment streamlines your packaging process, saving you time
+              and labor costs.
+            </p>
+          </section>
+
+          <section>
+            <h4 className="my-3 font-semibold">Expert Support</h4>
+            <p>
+              Our knowledgeable team is here to assist you in selecting the
+              right equipment and answer any questions you may have
+            </p>
+          </section>
+          <section>
+            <h4 className="my-3 font-semibold">Superior Protection</h4>
+            <p>
+              Our machines ensure your products arrive at their destination safe
+              and sound.
+            </p>
+          </section>
+        </div>
+      </div>
     </div>
   );
 };
