@@ -1,3 +1,4 @@
+import EnquiryForm from "./EnquiryForm";
 import FirstSection from "./FirstSection";
 import FourthSection from "./FourthSection";
 import SecondSection from "./SecondSection";
@@ -10,6 +11,7 @@ const Home = () => {
       <SecondSection />
       <ThirdSection />
       <FourthSection />
+      <EnquiryForm />
     </div>
   );
 };

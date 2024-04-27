@@ -12,14 +12,14 @@ const FourthSection = () => {
         <div className="grid w-3/4  grid-cols-1 gap-4 lg:grid-cols-2">
           <section>
             <h4 className="my-3 font-semibold">Extensive Selection</h4>
-            <p>
+            <p className="font-light">
               We offer a wide variety of packaging machines to cater to diverse
               product types and packaging needs.
             </p>
           </section>
           <section>
             <h4 className="my-3 font-semibold">Enhanced Efficiency</h4>
-            <p>
+            <p className="font-light">
               Our equipment streamlines your packaging process, saving you time
               and labor costs.
             </p>
@@ -27,14 +27,14 @@ const FourthSection = () => {
 
           <section>
             <h4 className="my-3 font-semibold">Expert Support</h4>
-            <p>
+            <p className="font-light">
               Our knowledgeable team is here to assist you in selecting the
               right equipment and answer any questions you may have
             </p>
           </section>
           <section>
             <h4 className="my-3 font-semibold">Superior Protection</h4>
-            <p>
+            <p className="font-light">
               Our machines ensure your products arrive at their destination safe
               and sound.
             </p>

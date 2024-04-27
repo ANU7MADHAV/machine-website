@@ -19,7 +19,7 @@ const ThirdSection = () => {
               </span>
               Extensive Selection
             </h3>
-            <p className="text-sm">
+            <p className="text-sm font-light">
               We offer a wide variety of packaging machines to cater to diverse
               product types and packaging needs.
             </p>
@@ -31,7 +31,7 @@ const ThirdSection = () => {
               </span>
               Superior Protection
             </h3>
-            <p className="text-sm">
+            <p className="text-sm font-light">
               Our machines ensure your products arrive at their destination safe
               and sound.
             </p>
@@ -43,7 +43,7 @@ const ThirdSection = () => {
               </span>
               Expert Support
             </h3>
-            <p className="text-sm">
+            <p className="text-sm font-light">
               Our knowledgeable team is here to assist you in selecting the
               right equipment and answer any questions you may have.
             </p>
